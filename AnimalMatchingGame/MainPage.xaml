@@ -8,7 +8,7 @@
             Padding="30,0"
             Spacing="25">
 
-            <Button x:Name="PlayAgainButton" Text="Jugar otra vez..." FontSize="Large" FontAutoScalingEnabled="True" Clicked="PlayAgainButton_Clicked"/>
+            <Button x:Name="PlayAgainButton" Text="Jugar" FontSize="Large" FontAutoScalingEnabled="True" Clicked="PlayAgainButton_Clicked"/>
 
             <Label x:Name="TimeElapsed" Text="Time Elapsed: 0.0 seconds" FontSize="Large" />
 
