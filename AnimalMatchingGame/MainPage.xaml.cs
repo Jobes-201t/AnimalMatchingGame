@@ -51,11 +51,11 @@ namespace AnimalMatchingGame
                 }
                 else
                 {
-                    if ((buttonClicked != lastClicked) && (buttonClicked.Text == lastClicked.Text))
+                    if ((buttonClicked != lastClicked) && (buttonClicked.Text == lastClicked.Text) && (!String.IsNullOrWhiteSpace(buttonClicked.Text)))
                     {
                         matchesFound++;
-                        lastClicked.Text = " ";
-                        buttonClicked.Text = " ";
+                        lastClicked.Text = "x";
+                        buttonClicked.Text = "x";
                     }
                     lastClicked.BackgroundColor = Colors.LightBlue;
                     buttonClicked.BackgroundColor = Colors.LightBlue;
